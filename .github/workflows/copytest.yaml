@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://registry.cn-hangzhou.aliyuncs.com/liccopen/kaniko-executor:v1.13.0
+        skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://registry.cn-hangzhou.aliyuncs.com/liccopen/open/kaniko-executor:v1.13.0
  
