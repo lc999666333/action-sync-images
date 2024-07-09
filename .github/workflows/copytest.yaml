@@ -43,4 +43,4 @@ jobs:
         #skopeo copy docker://tdengine/tdengine:2.6.0.12 docker://registry.cn-hangzhou.aliyuncs.com/liccopen/tdengine:2.6.0.12
         #skopeo copy docker://zlmediakit/zlmediakit:master docker://registry.cn-hangzhou.aliyuncs.com/liccopen/zlmediakit:master
 
-        skopeo copy docker://discourse/base docker://registry.cn-hangzhou.aliyuncs.com/liccopen/discourse_base
+        skopeo copy docker://discourse/base:release docker://registry.cn-hangzhou.aliyuncs.com/liccopen/discourse_base:latest
