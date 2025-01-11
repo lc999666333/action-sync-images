@@ -44,4 +44,4 @@ jobs:
         #skopeo copy docker://zlmediakit/zlmediakit:master docker://registry.cn-hangzhou.aliyuncs.com/liccopen/zlmediakit:master
 
         #skopeo copy docker://discourse/base:release docker://registry.cn-hangzhou.aliyuncs.com/liccopen/discourse_base:latest
-        skopeo copy docker://hlohaus789/g4f   docker://registry.cn-hangzhou.aliyuncs.com/hlohaus789/g4f:latest
+        skopeo copy docker://hlohaus789/g4f   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/g4f:latest
