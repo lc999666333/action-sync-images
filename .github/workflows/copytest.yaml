@@ -46,7 +46,7 @@ jobs:
         #skopeo copy docker://discourse/base:release docker://registry.cn-hangzhou.aliyuncs.com/liccopen/discourse_base:latest
         # skopeo copy docker://hlohaus789/g4f   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/g4f:latest
 
-        skopeo copy docker://golang/1.22.12   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/golang/1.22.12
-        skopeo copy docker://ubuntu/22.04   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/ubuntu/22.04 
+        skopeo copy docker://golang:1.22.12   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/golang:1.22.12
+        skopeo copy docker://ubuntu:22.04   docker://registry.cn-hangzhou.aliyuncs.com/liccopen/ubuntu:22.04 
 
         
